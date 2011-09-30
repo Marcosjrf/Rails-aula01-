@@ -1,9 +1,10 @@
+# encoding: utf-8
 require 'sinatra'
 
 get '/' do
-	"Bem vindo. Digite <a href='/ola'>Clique aqui</a>"
+	erb :index
 end
 
 get '/ola' do
-	"ola mundo"
+	erb :ola
 end
