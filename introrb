@@ -1,5 +1,0 @@
-class listadordediretorios
-		def inirtialize
-			puts "Hello"
-		end
-end			
